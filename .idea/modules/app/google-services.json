@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677002436266",
+    "firebase_url": "https://android-note-taking-app-33ff2.firebaseio.com",
+    "project_id": "android-note-taking-app-33ff2",
+    "storage_bucket": "android-note-taking-app-33ff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677002436266:android:ee0c94a80a904b88b53ad3",
+        "android_client_info": {
+          "package_name": "com.supercoders.androidnotetakingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677002436266-46h5boa7k3u21virtqucvar8121utjqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.supercoders.androidnotetakingapp",
+            "certificate_hash": "68a0c4521f5ed079a9937c8a24f94c51fd5e9b7d"
+          }
+        },
+        {
+          "client_id": "677002436266-gh7rdsvoi8fmt7ec9vhbap97tq6qsmcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt9SwHHmfWYI7soJPVcLR5s58CiH7zpzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677002436266-gh7rdsvoi8fmt7ec9vhbap97tq6qsmcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

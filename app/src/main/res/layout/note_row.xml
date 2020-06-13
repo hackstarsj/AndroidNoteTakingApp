@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/note_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/card_item"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:padding="10dp"
+                style="@style/TextAppearance.Compat.Notification.Title"
+                android:maxLines="2"
+                android:id="@+id/notetext"
+                android:text="Demo Title Text"
+                android:layout_marginBottom="15dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="2nd June 10:000"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                android:id="@+id/create_time"
+                android:padding="5dp"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

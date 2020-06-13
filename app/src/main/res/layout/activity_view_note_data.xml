@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewNoteDataActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edittext_area"
+            android:padding="10dp"
+            android:text="Demo Text"
+            android:textSize="16sp"
+            android:gravity="top|left"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:text="12 June 01:10"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:id="@+id/create_time"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:id="@+id/save"
+        android:src="@drawable/ic_baseline_save_24"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
