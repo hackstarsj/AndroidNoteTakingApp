@@ -16,7 +16,7 @@
             <TextView
                 android:padding="10dp"
                 style="@style/TextAppearance.Compat.Notification.Title"
-                android:maxLines="2"
+                android:singleLine="true"
                 android:id="@+id/notetext"
                 android:text="Demo Title Text"
                 android:layout_marginBottom="15dp"
